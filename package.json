@@ -1,0 +1,20 @@
+﻿{
+  "name": "couch-data-install",
+  "version": "1.0.0",
+  "description": "This is a data seeding application for couch db",
+  "author": {
+    "name": "Adedayo Adebiyi",
+    "email": "adedayo@kwarasoft.com",
+    "url": "http://www.kwarasoft.com"
+  },
+  "engines": { "node": ">=3.5.1 <4.2.3" },
+  "private": true,
+  "scripts": {
+    "start": "node ./database/install"
+  },
+  "dependencies": { 
+    "cradle": "~0.7.1"
+  },
+  "license": "UNLICENSED"
+}
+  
